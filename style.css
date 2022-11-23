@@ -1,0 +1,160 @@
+body {
+    background-image: url("raccooncity.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    div background-color: blue;
+    color: white;
+}
+
+.panel {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-container {
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    background-image: url(ResidentEvilCast.jpg);
+    font-size: x-large;
+    text-align: center;
+    text-shadow: whitesmoke;
+
+}
+
+.result {
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.option-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: #9eb1b3;
+
+}
+
+.option1 {
+    display: flex;
+    background-image: url("swordkey.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: medium;
+    background-color: rgb(84, 62, 145);
+
+
+    div background-color: blue;
+    color: white;
+
+}
+
+
+
+.option2 {
+    display: flex;
+    background-image: url("shieldkey.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: medium;
+    background-color: rgb(184, 89, 89);
+    div background-color: blue;
+    color: white;
+}
+
+.option3 {
+    display: flex;
+    background-image: url("imitkey.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: medium;
+    background-color: rgb(54, 119, 103);
+    div background-color: blue;
+    color: white;
+}
+
+.option4 {
+    display: flex;
+    background-image: url("helmetkey.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: medium;
+    background-color: rgb(202, 176, 89);
+    div background-color: blue;
+    color: white;
+}
+
+
+.option:hover {
+    background-color: rgb(219, 219, 93);
+}
+
+.navigation {
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #c7dddf;
+}
+
+.evaluate,
+.next {
+    width: 30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+}
+
+.evaluate {
+
+    background-color: #2d91af;
+}
+
+.next {
+    color: white;
+    background-color: #BF3325;
+}
